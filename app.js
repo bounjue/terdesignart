@@ -5,7 +5,6 @@ const path = require('path');
 
 const app = express();
 const port = process.env.PORT || 10000;
-const port = process.env.PORT || 3306;
 app.use(express.static('public'));
 app.use(fileUpload());
 
